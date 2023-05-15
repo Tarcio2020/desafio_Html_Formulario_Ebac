@@ -1,55 +1,27 @@
-h5 {
-    margin-bottom: 0px;
+body {
+    height: 600px;
+    width: 1100px;
+    background-color: antiquewhite;
 }
 
-h1 {
-    color: gold
-    ;
+
+div, header, footer{
+    display: block;
+    margin-top: auto;
+    margin-left: auto;
+    width: 100vh;
+}
+
+.formulario {
+    height: 500px;
 }
 
 button {
-    background-color: rgb(60, 60, 195);
+    background-color: rgb(0, 0, 255);
+    border: none;
     color: aliceblue;
-    border-radius: 8px;
-    margin-top: 10px;
-    margin-left: 70px;
-}
-
-form {
-    justify-content: center;
-    justify-items: center;
-    height:450px;
-    color: aliceblue;
-    margin-left: 530px;
-    margin-right: 500px;
-
-}
-
-header {
-    font-family: Arial, Helvetica, sans-serif;
-    color: aliceblue;
-    margin: 0px;
-    height: 100px;
-    margin-left: 500px;
-    margin-right: 500px;
-}
-
-
-
-#footer {
-    height: 50px;
-   color: aliceblue;
-    margin-left: 500px;
-    margin-right: 500px;
-    justify-content: center;
-    align-items: center;
-}
-
-
-body {
-    background-color: rgb(45, 45, 45);
-}
-
-input {
-    border-radius: 8px;
+    border-radius: 9px;
+    margin-top: 8px;
+    height: 30px;
+    width: 60px;
 }
